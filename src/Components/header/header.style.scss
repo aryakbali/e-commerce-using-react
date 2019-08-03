@@ -1,0 +1,40 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    .title{
+      height:300px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 12%;
+      left: 2%;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: brown;
+    }
+
+    .logo-container {
+      height: 100%;
+      width: 60px;
+      padding: 20px;
+    }
+  
+    .options {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+     
+  
+      .option {
+        padding: 10px 15px;
+        cursor: pointer;
+        color: brown;
+      }
+    }
+  }
